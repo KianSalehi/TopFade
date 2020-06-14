@@ -1,0 +1,116 @@
+<!-- -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Top Fade</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="Style.css" type="text/css">
+</head>
+<body>
+
+<div class="container-fluid my-3 bg-dark text-white text-center">
+        <span><img src="LOGO.png" class="rounded-circle" alt="TOP FADE LOGO" width="279" height="185">
+        </span><div style="width: 30%"> </div>
+        <span class="display-3">TOP FADE</span>
+    <h2>We cut, style, and fade</h2>
+</div>
+
+<div class="container">
+    <div class="alert alert-info">
+        <strong>Attention!</strong> To book an appointment please call:<b>(123) 456-7890, or use the form at the bottom of the page</b></a>.
+    </div>
+</div><br>
+<!-- img taken from https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Ffreepng%2Fcartoons-depicting-barber_2820272.html&psig=AOvVaw21fyDR2jjYHSOsOSZjgIt4&ust=1592234053453000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNDI9u7MgeoCFQAAAAAdAAAAABAD-->
+<!-- img taken from https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT1mAeZsxgCesxqtvlCoH0KdNwupDBBUOH0K6b9ZloxbhycNxYB&usqp=CAU-->
+<div class="container">
+    <h2>Services</h2>
+    <p>Services we provide</p>
+    <table class="table table-dark table-hover bg-dark text-white">
+        <thead>
+        <tr>
+            <th>Service</th>
+            <th>Price</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Haircut</td>
+            <td>$25</td>
+        </tr>
+        <tr>
+            <td>Drying</td>
+            <td>$10</td>
+        </tr>
+        <tr>
+            <td>Coloring</td>
+            <td>$60</td>
+        </tr>
+        <tr>
+            <td>Fade</td>
+            <td>$20</td>
+        </tr>
+        </tbody>
+    </table>
+</div><br><br>
+
+
+<div class="container">
+    <h2>Barbers</h2>
+    <div class="custom-control-inline">
+    <div class="card" style="width:300px">
+        <img class="card-img-top" src="Barber-Joey.jpg" alt="Card image" style="width:100%">
+        <div class="card-body">
+            <h4 class="card-title">Joey Catch</h4>
+            <p class="card-text">Joey Catch is our 10 years experienced barber who specializes in lining up facial hair and fades.</p>
+            <a href="#" class="btn btn-primary">See Profile</a>
+        </div>
+    </div>
+    <div class="card" style="width:300px">
+        <img class="card-img-top" src="Mitch.jpeg" alt="Card image" style="width:100%">
+        <div class="card-body">
+            <h4 class="card-title">Mitchell Cologne</h4>
+            <p class="card-text">Mitchell Cologne is our 12 years experienced barber who specializes in lining up facial hair and fades, and old school haircuts.</p>
+            <a href="#" class="btn btn-primary">See Profile</a>
+        </div>
+    </div>
+    </div>
+</div><br><br>
+<div class="container">
+    <h2>Appointment</h2>
+<form>
+    <select name="services" class="custom-select">
+        <option selected>Services</option>
+        <option value="haircut">Haircut</option>
+        <option value="fade">Fade</option>
+        <option value="coloring">Coloring</option>
+        <option value="drying">drying</option>
+    </select><br><br>
+    <!--Time picker -->
+    <div class="form-group pmd-textfield pmd-textfield-floating-label">
+        <label class="control-label" for="timepicker">Select Time</label>
+        <input type="text" class="form-control" id="timepicker">
+    </div>
+</form>
+    <script>
+        // Time picker only
+        $('#timepicker').datetimepicker({
+            format: 'LT'
+        });
+    </script>
+</div><br><br>
+<div class="container-fluid bg-dark text-white">
+    <address>
+        <strong>Address:</strong><br>
+        1234 Example Street, Toronto<br>
+        ON, Canada A1A 1A1<br>
+        (123) 456-7890<br>
+    </address>
+</div><br>
+
+</body>
+</html>
