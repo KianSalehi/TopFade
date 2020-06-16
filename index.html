@@ -9,24 +9,22 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="Style.css" type="text/css">
+    <link rel="stylesheet" href="Style/Style.css" type="text/css">
 </head>
-<body>
+<body class="bg-dark">
 
 <div class="container-fluid my-3 bg-dark text-white text-center">
-        <span><img src="LOGO.png" class="rounded-circle" alt="TOP FADE LOGO" width="279" height="185">
+        <span><img src="Pictures/LOGO.png" class="rounded-circle" alt="TOP FADE LOGO" width="279" height="185">
         </span><div style="width: 30%"> </div>
         <span class="display-3">TOP FADE</span>
     <h2>We cut, style, and fade</h2>
 </div>
-
+<div class="bg-white">
 <div class="container">
     <div class="alert alert-info">
         <strong>Attention!</strong> To book an appointment please call:<b>(123) 456-7890, or use the form at the bottom of the page</b></a>.
     </div>
 </div><br>
-<!-- img taken from https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Ffreepng%2Fcartoons-depicting-barber_2820272.html&psig=AOvVaw21fyDR2jjYHSOsOSZjgIt4&ust=1592234053453000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNDI9u7MgeoCFQAAAAAdAAAAABAD-->
-<!-- img taken from https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT1mAeZsxgCesxqtvlCoH0KdNwupDBBUOH0K6b9ZloxbhycNxYB&usqp=CAU-->
 <div class="container">
     <h2>Services</h2>
     <p>Services we provide</p>
@@ -35,24 +33,33 @@
         <tr>
             <th>Service</th>
             <th>Price</th>
+            <th>Example:</th>
         </tr>
         </thead>
         <tbody>
         <tr>
-            <td>Haircut</td>
-            <td>$25</td>
+            <td>Full Haircut and Shave</td>
+            <td>$35</td>
+            <!--https://www.google.com/url?sa=i&url=https%3A%2F%2Fringmyfashion.com%2Fhaircuts-little-boys%2F&psig=AOvVaw1BYGhbyPfqHw3xqhBpuLUI&ust=1592409307696000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMDjxJ_ZhuoCFQAAAAAdAAAAABAY-->
+            <td><img src="Pictures/FullHaircut.jpg" class="img-thumbnail imgsize" alt="Cinque Terre"></td>
         </tr>
         <tr>
             <td>Drying</td>
             <td>$10</td>
+            <!--https://www.google.com/url?sa=i&url=https%3A%2F%2Fmyhairdressers.com%2Fvideos%2Fcurling-finger-drying-men-s-hair&psig=AOvVaw2ZRoFWeKOnK17OClT-Kagd&ust=1592409782411000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKjS9-_ahuoCFQAAAAAdAAAAABAE-->
+            <td><img src="Pictures/Drying.jpg" class="img-thumbnail imgsize" alt="Cinque Terre"></td>
         </tr>
         <tr>
             <td>Coloring</td>
             <td>$60</td>
+            <!--https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F800163058764575535%2F&psig=AOvVaw25ALF2nlUC6XVKYIS8YYUi&ust=1592409890091000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLj9t6TbhuoCFQAAAAAdAAAAABAg-->
+            <td><img src="Pictures/Coloring.jpg" class="img-thumbnail imgsize" alt="Cinque Terre"></td>
         </tr>
         <tr>
             <td>Fade</td>
             <td>$20</td>
+            <!--https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F353391902000858646%2F&psig=AOvVaw0KML2L9vL-vWbBY4FzFPj-&ust=1592410228478000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKDag8XchuoCFQAAAAAdAAAAABAD-->
+            <td><img src="Pictures/Fade.jpg" class="img-thumbnail imgsize" alt="Cinque Terre"></td>
         </tr>
         </tbody>
     </table>
@@ -61,9 +68,11 @@
 
 <div class="container">
     <h2>Barbers</h2>
+    <!-- img taken from https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Ffreepng%2Fcartoons-depicting-barber_2820272.html&psig=AOvVaw21fyDR2jjYHSOsOSZjgIt4&ust=1592234053453000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNDI9u7MgeoCFQAAAAAdAAAAABAD-->
+    <!-- img taken from https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT1mAeZsxgCesxqtvlCoH0KdNwupDBBUOH0K6b9ZloxbhycNxYB&usqp=CAU-->
     <div class="custom-control-inline">
     <div class="card" style="width:300px">
-        <img class="card-img-top" src="Barber-Joey.jpg" alt="Card image" style="width:100%">
+        <img class="card-img-top" src="Pictures/Barber-Joey.jpg" alt="Card image" style="width:100%">
         <div class="card-body">
             <h4 class="card-title">Joey Catch</h4>
             <p class="card-text">Joey Catch is our 10 years experienced barber who specializes in lining up facial hair and fades.</p>
@@ -71,7 +80,7 @@
         </div>
     </div>
     <div class="card" style="width:300px">
-        <img class="card-img-top" src="Mitch.jpeg" alt="Card image" style="width:100%">
+        <img class="card-img-top" src="Pictures/Mitch.jpeg" alt="Card image" style="width:100%">
         <div class="card-body">
             <h4 class="card-title">Mitchell Cologne</h4>
             <p class="card-text">Mitchell Cologne is our 12 years experienced barber who specializes in lining up facial hair and fades, and old school haircuts.</p>
@@ -81,28 +90,44 @@
     </div>
 </div><br><br>
 <div class="container">
-    <h2>Appointment</h2>
-<form>
-    <select name="services" class="custom-select">
+    <h2>Appointment</h2><br>
+<form action="/action_page.php">
+    <select name="services" class="custom-select form-group">
         <option selected>Services</option>
         <option value="haircut">Haircut</option>
         <option value="fade">Fade</option>
         <option value="coloring">Coloring</option>
-        <option value="drying">drying</option>
-    </select><br><br>
+        <option value="drying">Drying</option>
+    </select><br>
     <!--Time picker -->
     <div class="form-group pmd-textfield pmd-textfield-floating-label">
         <label class="control-label" for="timepicker">Select Time</label>
         <input type="text" class="form-control" id="timepicker">
     </div>
-</form>
     <script>
         // Time picker only
         $('#timepicker').datetimepicker({
             format: 'LT'
         });
-    </script>
-</div><br><br>
+    </script><br>
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text">Name:</span>
+        </div>
+        <input type="text" class="form-control" placeholder="First and last name">
+    </div>
+
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Your Email">
+        <div class="input-group-append">
+            <span class="input-group-text">@example.com</span>
+        </div>
+    </div><br>
+    <button type="button" class="btn btn-primary">Submit</button>
+</form>
+
+</div>
+    <br><br>
 <div class="container-fluid bg-dark text-white">
     <address>
         <strong>Address:</strong><br>
@@ -111,6 +136,7 @@
         (123) 456-7890<br>
     </address>
 </div><br>
-
+</div>
 </body>
+<footer class="bg-dark text-white text-center">Website designed by Kian Salehi</footer>
 </html>
